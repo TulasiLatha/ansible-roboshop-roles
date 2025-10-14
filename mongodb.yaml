@@ -1,5 +1,5 @@
 - name: setup mongodb server
   hosts: mongodb
-  beocme: yes
+  become: yes
   roles:
   - mongodb
